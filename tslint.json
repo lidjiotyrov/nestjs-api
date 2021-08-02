@@ -8,7 +8,7 @@
     "prefer-for-of": true,
     "forin": true,
     "no-console": [
-      true,
+      false,
       "log",
       "error"
     ],
@@ -59,7 +59,7 @@
     "indent": [
       true,
       "tabs",
-      4
+      2
     ],
     "linterOptions": {
       "exclude": [

@@ -9,7 +9,7 @@ export enum TopLevelCategory {
 }
 
 export class HhData {
-  @prop()
+	@prop()
 	count: number;
 
 	@prop()
@@ -36,7 +36,7 @@ export class TopPageModel extends TimeStamps{
 	@prop({ enum: TopLevelCategory, type: () => Number })
 	firstCategory: TopLevelCategory;
 
-  @prop()
+	@prop()
 	secondCategory: string;
 
 	@prop({ unique: true})

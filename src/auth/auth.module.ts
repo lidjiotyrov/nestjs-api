@@ -4,8 +4,8 @@ import {TypegooseModule} from 'nestjs-typegoose';
 import {AuthModel} from './auth.model';
 
 @Module({
-  controllers: [AuthController],
-  imports: [
+	controllers: [AuthController],
+	imports: [
 		TypegooseModule.forFeature([
 		{
 		typegooseClass: AuthModel,
@@ -14,6 +14,6 @@ import {AuthModel} from './auth.model';
 		}
 		}
 	])
-  ]
+	]
 })
 export class AuthModule {}
