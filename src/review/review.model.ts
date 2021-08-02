@@ -1,5 +1,7 @@
 import { prop } from '@typegoose/typegoose';
-import { TimeStamps, Base } from '@typegoose/typegoose/lib/defaultClasses';
+import {
+	TimeStamps,
+	Base } from '@typegoose/typegoose/lib/defaultClasses';
 import { Types } from 'mongoose';
 
 

@@ -1,4 +1,4 @@
-import {IObjectWithTypegooseName} from '@typegoose/typegoose/lib/types';
+import { IObjectWithTypegooseName } from '@typegoose/typegoose/lib/types';
 
 export class CreateReviewDto {
 	name: string;

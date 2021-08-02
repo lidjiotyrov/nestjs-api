@@ -1,7 +1,9 @@
 import { Injectable } from '@nestjs/common';
-import {InjectModel} from 'nestjs-typegoose';
-import {ProductModel} from './product.model';
-import {ModelType, DocumentType} from '@typegoose/typegoose/lib/types';
+import { InjectModel } from 'nestjs-typegoose';
+import { ProductModel } from './product.model';
+import {
+	ModelType,
+	DocumentType } from '@typegoose/typegoose/lib/types';
 
 @Injectable()
 export class ProductService {
